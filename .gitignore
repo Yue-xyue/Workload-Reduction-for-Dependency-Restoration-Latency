@@ -1,0 +1,44 @@
+# OS / editor
+.DS_Store
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# experiment artifacts / data
+work/
+result/
+locks/
+frontier_poc/
+projects/
+a2_ro/
+shared_deps/
+
+# caches
+npm-cache/
+npm-cache.*
+**/npm-cache/
+**/npm-cache.*
+
+# logs / traces
+**/logs/
+*.log
+*.out
+*.trace
+
+# backups / temp
+*.bak
+tmp/
+tempcode/
+
+# python cache
+__pycache__/
+*.pyc
+
+# secrets
+.env
+*.key
+*.pem
+
+# binaries / compiled (keep source)
+boottime_now
